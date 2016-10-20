@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A Virtual Filesystem Server",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "babel-node": "babel-node --presets=es2015",
+  "start": "nodemon --exec babel-node inde.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/CrabDude/vfsserver.git"
